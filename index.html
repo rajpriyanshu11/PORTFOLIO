@@ -5,38 +5,141 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
     <link rel="stylesheet" href="style.css"/>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"> -->
+ 
 </head>
 <body>
     <header>
-        
-    </header>
-    <main>
         <section id="top_left">
-            <div>
+            <div class="title">
                 Priyanshu.Raj
             </div>
-            <div class="image">
-                <img src="/IMG_20230805_154642.jpg" alt="MyImage" height="499" width="320">
-            </div>
+            <div class="link">
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#project">Project</a>
+            <a href="#contact">Contacts</a>
+        </div>
         </section>
-        <section id="top_right"></section>
-        <section>
+    </header>
+    <main>
+        <div class="image">
+            <img src="/IMG_20230805_154642.jpg" alt="MyImage" height="505" width="320">
+        </div>
+        <section id="intro">
             <div class="intro">I'm Priyanshu Raj.
                 <br>
-                 An enthusiastic undergrad
+                 An undergrad student
                  <br>
-                 student 
-                 <div class="intro_part">
-                on a journey of continuous learning.
+                <div class="intro_part">
+                    on a journey of continuous learning.
                 </div>
             </div>
             <div class="intro_body">
-                My current focus lies in the dynamic realms of web development and data structures & algorithms. Proficient in languages like C, C++, Python, HTML, and CSS, I embrace challenges and opportunities with unwavering dedication. My insatiable curiosity drives me to explore new horizons and expand my skill set. With a strong work ethic, I am committed to turning every project into a stepping stone towards excellence.
+                My current focus lies in the dynamic realms of web development and data structures & algorithms.I embrace challenges and opportunities with unwavering dedication. My insatiable curiosity drives me to explore new horizons and expand my skill set. With a strong work ethic, I am committed to turning every project into a stepping stone towards excellence.
+            </div>
+        </section>
+        <section id="about">
+            <div class="about">
+                About me
+            </div>
+            <div class="about_body">
+                I'm a first year undergraduate student pursuing my btech in Information Science and Engineering from Sir M.Visvesvaraya Institute of Technology,Bangalore .<br>
+                I was born and raised in Patna, Bihar.
+            </div>
+        </section>
+        <section id="skills">
+          <div class="skills">
+            Skills
+          </div>
+          <div class="techstacks">
+            Technical Expertise
+          </div>  
+          <div class="skill_body">
+            <div class="skill_mainbody">
+               <div class="skill_card">
+               I have a good amount of knowledge in C.Practicing if for over last 6 months.
+               </div>
+            <div class="circle_parent" >
+                <div class="line" id="sta1"></div>      
+                <div class="circle" id="abs1">
+                  <img class="circle_img" src="https://e7.pngegg.com/pngimages/724/306/png-clipart-c-logo-c-programming-language-icon-letter-c-blue-logo.png"/>
+                </div>
+            </div>
+        </div>
+            <div class="skill_mainbody">
+                 <div class="skill_card">
+                  Fluent in this language . Doing my DSA with the help of it. 
+                 </div>
+                 <div class="circle_parent" >
+                     <div class="line" id="sta2"></div>
+                      <div class="circle" id="abs2">
+                        <img class="circle_img" src="/c++.jpg"/>
+                      </div>
+                 </div>
+             </div>
+             <div class="skill_mainbody">
+             <div class="skill_card">
+                Have a pretty good grasp on it. Making projects with the help of it. 
+             </div>
+             <div class="circle_parent" >
+                <div class="line" id="sta3"></div>
+             <div class="circle" id="abs3">
+                   <img class="circle_img" src="/html.jpg"/>
+             </div>
+            </div>
+        </div>
+            <div class="skill_mainbody">
+             <div class="skill_card">
+                In learning stage.  
+             </div>
+             <div class="circle_parent" >
+                <div class="line" id="sta4"></div>
+             <div class="circle" id="abs4">
+                   <img class="circle_img" src="/css.jpg"/>
+             </div>
+            </div>
+        </div>
+          </div>
+       
+        </section>
+        <section id="project">
+            <div class="project_title">Accomplishments</div>
+            <div class="project">My Projects</div>
+            <card class="card">
+                <a href="https://github.com/rajpriyanshu11/PORTFOLIO"><img class="project_img" src="https://img.freepik.com/premium-vector/portfolio-word-with-pencil-instead-letter-i-art-design-gallery-concept-vector-conceptual-creative-logo-poster-made-with-special-font_570429-20468.jpg?w=2000"></a> 
+                 
+            </card>
+        </section>
+        <section id="contact">
+            <div class="contact">
+                Contacts
+              </div>
+              <div class="contact2">
+                Let's connect
+              </div>
+              <div class="contact_body">
+                <div id="card1">
+                    <a href="https://www.instagram.com/raj_priyanshu11/" target="_main"><img class="insta" src="/insta.jpg"></a>
+                </div>
+                <div id="card2">
+                    <a href="https://www.linkedin.com/in/priyanshu-raj-9a2756247/" target="_main"><img class="linkedin"
+                        src="/linkedin.jpg"></a>
+                </div>
+                <div><a href="https://github.com/rajpriyanshu11" target="_main"><img class="github"
+                    src="/github.jpg"></a>
+                </div>
+                <div>
+                  <a href="mailto: priyanshuraj0911@gmail.com" target="_main"><img class="mail"
+                    src="https://cdn.pixabay.com/photo/2016/06/13/17/30/mail-1454731_1280.png"></a>
                 </div>
         </section>
     </main>
     <footer>
-
+        <form class="form" action="/action.php">
+            <input type="text" placeholder="Any advices?">
+        </form>
     </footer>
+    
 </body>
 </html>
